@@ -1,0 +1,21 @@
+Let's make a game!
+Resources
+  *cheese
+    name:cheese
+    desc:yellowmoon
+
+Upgrades
+  *gudaRecipe
+    name:guda Recipe
+    desc:Unlocks the ability to make guda cheese
+    
+  *munsterRecipe
+    name:munster Recipe
+    desc:Boy, you'll never guess!
+
+Buildings
+  *brownCow
+    name:Brown cow
+    desc:A big friendly cow that generates 1 cheese per second.
+    cost:20 coins
+    on tick:give 1 cheese
